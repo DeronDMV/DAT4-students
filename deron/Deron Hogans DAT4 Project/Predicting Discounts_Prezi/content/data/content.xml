@@ -1,0 +1,847 @@
+<zuiprezi>
+  <version>7</version>
+  <zui-table>
+    <settings>
+      
+      <autoplay>
+        
+        <delay>4000</delay>
+        
+      </autoplay>
+      
+      <bounds x="-18821.002557505482" y="-10577.274407787967" width="37642.005115010965" height="21154.548815575934"/>
+      <aspectratio>off</aspectratio>
+      <languages>
+        <language>en</language>
+      </languages>
+      <mode type="normal"/>
+    </settings>
+    <object id="1_24309637" type="button" x="1.0392596717962087e-12" y="0" r="0" s="31.470617101422096" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1197.448853773701</w>
+        <h>673.5649802477071</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>dashboard</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="OVERVIEW"/>
+      </layout>
+    </object>
+    <object id="0_24309637" type="button" x="-8284.911710805003" y="188.78176499320662" r="0" s="3.6600927239718346" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>dashboard</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="SECTION"/>
+      </layout>
+    </object>
+    <object id="3_24309637" type="button" x="-4423.499567469506" y="-5286.899271981672" r="0" s="4.32180489620881" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>dashboard</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="SECTION"/>
+      </layout>
+    </object>
+    <object id="9_24309637" type="button" x="2488.1710607380987" y="-6017.345544876125" r="0" s="5.094712687788205" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>dashboard</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="SECTION"/>
+      </layout>
+    </object>
+    <object id="14_24309637" type="button" x="8135.80972552427" y="-817.616712362809" r="0" s="6.680592380251682" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>dashboard</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="SECTION"/>
+      </layout>
+    </object>
+    <object id="12_4" type="text" x="-8297.742382794728" y="-539.669915838136" r="0" s="8.068940644109432" class="strong">
+      <height>30</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[The Data]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="0_24309637"/>
+      </layout>
+    </object>
+    <object id="25_4" type="text" x="-8284.458945931332" y="-111.43143481331481" r="0" s="4.655738025265746" class="body">
+      <height>57.6</height>
+      <width>390.9237784827681</width>
+      <p>
+        <text><![CDATA[2pointb's reporting dashboard tracks metrics for each trip.]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="0_24309637"/>
+      </layout>
+    </object>
+    <object id="48_24309637" type="text" x="-4438.649910700887" y="-6147.048530017972" r="0" s="9.527733260562826" class="strong">
+      <height>30</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Hypothesis]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="3_24309637"/>
+      </layout>
+    </object>
+    <object id="49_24309637" type="text" x="-4368.201306563667" y="-5642.873877503755" r="0" s="5.497454001991528" class="body">
+      <height>57.6</height>
+      <width>390.9237784827681</width>
+      <p>
+        <text><![CDATA[Null:  Features in the data set cannot be used to accurately predict discount.]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="3_24309637"/>
+      </layout>
+    </object>
+    <object id="50_24309637" type="text" x="2470.3112434305212" y="-7031.323140707284" r="0" s="11.231664708194597" class="strong">
+      <height>30</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Preparation]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="9_24309637"/>
+      </layout>
+    </object>
+    <object id="51_24309637" type="text" x="2518.9099605740057" y="-6176.926909433306" r="0" s="6.480613847017375" class="body">
+      <height>172.8</height>
+      <width>390.9237784827681</width>
+      <p>
+        <text><![CDATA[Transformed strings to floats to attach numerical values to non-float features using Map function. ]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Completed Trip = 1 /Canceled = -1]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Adjusted Trip: Yes = 1/No = 0]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Existing Passenger: Yes = 1/No = 0]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Gave Fleet (Type of Car) numerical values  ]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="9_24309637"/>
+      </layout>
+    </object>
+    <object id="5_24309637" type="shape" x="-7054.646123299897" y="-2883.4153396048487" r="-54.54918914269097" s="18.096550918360567" class="line5">
+      <geom type="line">
+        <sp>-96.2260101675328 5.041194205327889</sp>
+        <ep>96.2260101675328 5.041194205327889</ep>
+        <b>-10.082388410655778</b>
+        <t>8</t>
+      </geom>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>dashboard</parentTemplate>
+      </meta>
+    </object>
+    <object id="6_24309637" type="shape" x="-1214.6572454660788" y="-6400.42247084756" r="-6.323733990083642" s="18.09655091836057" class="line5">
+      <geom type="line">
+        <sp>-87.236121644644 5.313288925783018</sp>
+        <ep>87.23612164464399 5.313288925783018</ep>
+        <b>-10.626577851566037</b>
+        <t>8</t>
+      </geom>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>dashboard</parentTemplate>
+      </meta>
+    </object>
+    <object id="8_24309637" type="shape" x="5516.897341368683" y="-4138.221068324409" r="43.22457779361926" s="12.92610779882897" class="line5">
+      <geom type="arrow">
+        <sp>-110.98505507672938 4.570456067541613</sp>
+        <ep>110.98505507672938 4.570456067541613</ep>
+        <b>-9.140912135083228</b>
+        <t>10</t>
+      </geom>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>dashboard</parentTemplate>
+      </meta>
+    </object>
+    <object id="7_24309637" type="text" x="8106.562095630039" y="-2890.6134643319756" r="0" s="14.727851846672351" class="strong">
+      <height>30</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Exploration]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="14_24309637"/>
+      </layout>
+    </object>
+    <object id="10_24309637" type="text" x="8208.7308950204" y="-2311.6548315065324" r="0" s="8.497896179604473" class="body">
+      <height>57.6</height>
+      <width>390.9237784827681</width>
+      <p>
+        <text><![CDATA[Used scatter plots to visualize correlation between Discount Applied and other features in the data set ]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="14_24309637"/>
+      </layout>
+    </object>
+    <object id="4_24309637" type="text" x="35.65410737670001" y="6628.223842744321" r="0" s="71.04856386410565" class="head">
+      <height>28.8</height>
+      <width>490.65722573217215</width>
+      <p align="center">
+        <text><![CDATA[Predicting Discounts for 2pointb]]></text>
+      </p>
+    </object>
+    <object id="2_24309637" type="button" x="-35.15932595134053" y="1903.0552638607576" r="0" s="8.16680007817779" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800.105694279297</h>
+      </size>
+      <meta>
+        <notModifiedByUser>from-template</notModifiedByUser>
+        <parentTemplate>dashboard</parentTemplate>
+      </meta>
+      <layout>
+        <frametype value="SECTION"/>
+      </layout>
+    </object>
+    <object id="11_24309637" type="text" x="-63.788527698748425" y="277.6540260729048" r="0" s="18.00430482307967" class="strong">
+      <height>30</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Background]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="2_24309637"/>
+      </layout>
+    </object>
+    <object id="0" type="image" x="-63.07468892620332" y="1365.2215012220533" r="0" s="5.016267729588358">
+      <source w="250" h="250">3158675764<url>3158675764.png</url></source>
+      <sourceUrl>copy-2pointb-driver-training-limo-84.png</sourceUrl>
+    <resource><id>3158675764</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/2/0/f1c28fdedf8ecdc11a165a03a84411fb7f670.png</url></resource></object>
+    <object id="12_24309637" type="text" x="117.03368854372461" y="2580.072964591513" r="0" s="10.38839300974175" class="body">
+      <height>57.6</height>
+      <width>390.9237784827681</width>
+      <p>
+        <text><![CDATA[2pointb is a ride sharing app (e.g. Uber, Lyft) whose drivers are all commercially licensed and insured]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="2_24309637"/>
+      </layout>
+    </object>
+    <object id="1" type="text" x="117.03368854372458" y="3605.688838929555" r="0" s="10.38839300974175" class="body">
+      <height>86.4</height>
+      <width>390.9237784827681</width>
+      <p>
+        <text><![CDATA[Trip discounts are an effective promotional tool. Can we predict discounts users will apply using other features in the data set? ]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="2_24309637"/>
+      </layout>
+    </object>
+    <object id="2" type="text" x="-8279.618869104315" y="556.6433597882022" r="0" s="4.655738025265746" class="body">
+      <height>230.40000000000003</height>
+      <width>390.9237784827681</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[All Trips in the month of January]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[CSV File ]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Strings, Floats]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Features include the following]]></text>
+      </p>
+      <p listType="bullet" indent="2">
+        <text><![CDATA[Type of Car]]></text>
+      </p>
+      <p listType="bullet" indent="2">
+        <text><![CDATA[Trip Status]]></text>
+      </p>
+      <p listType="bullet" indent="2">
+        <text><![CDATA[Trip Cost]]></text>
+      </p>
+      <p listType="bullet" indent="2">
+        <text><![CDATA[Discounts Applied and More ]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="0_24309637"/>
+      </layout>
+    </object>
+    <object id="3" type="text" x="-4369.061669303165" y="-5268.868420418233" r="0" s="5.497454001991528" class="body">
+      <height>57.6</height>
+      <width>390.9237784827681</width>
+      <p>
+        <text><![CDATA[K-Nearest Neighbors employed for prediction modeling. ]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="3_24309637"/>
+      </layout>
+    </object>
+    <object id="4" type="image" x="2488.2891267763757" y="-5138.7493068991425" r="0" s="3.167385782264519">
+      <source w="842" h="243">3158723020<url>3158723020.png</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2F3%2Ff%2F6%2Fe5645499f88c755c65018d053646a2608a290.png</sourceUrl>
+    <resource><id>3158723020</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/3/f/6/e5645499f88c755c65018d053646a2608a290.png</url></resource></object>
+    <object id="4_128620672" type="image" x="6991.257126414122" y="253.03389193938472" r="0" s="4.952781683167814">
+      <source w="397" h="272">3160160368<url>3160160368.png</url></source>
+      <sourceUrl>Gross_AmountxDiscount_Applied_Scatter.png</sourceUrl>
+    <resource><id>3160160368</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/7/c/40b23d57391459f4aff2cff3765a06307fd72.png</url></resource></object>
+    <object id="6_128620672" type="image" x="9176.888135002666" y="253.03389193938472" r="0" s="4.903377377101301">
+      <source w="401" h="271">3160160374<url>3160160374.png</url></source>
+      <sourceUrl>StatusxDiscount_Applied_Scatter.png</sourceUrl>
+    <resource><id>3160160374</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/f/4/6/33fe85d5f66009b1b70b8eaaec81147a0f4b5.png</url></resource></object>
+    <object id="5_128620672" type="image" x="7009.267964161114" y="-1211.261361452004" r="0" s="4.969852392094173">
+      <source w="395" h="272">3160160377<url>3160160377.png</url></source>
+      <sourceUrl>Existing_PassengerxDiscount_Applied_Scatter.png</sourceUrl>
+    <resource><id>3160160377</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/3/a/90d25fb30dafdd79dec0aa09910a88bc914f6.png</url></resource></object>
+    <object id="7_128620672" type="image" x="9194.898972749661" y="-1211.261361452004" r="0" s="4.988191330810388">
+      <source w="390" h="271">3160160380<url>3160160380.png</url></source>
+      <sourceUrl>FleetxDiscount_Applied_Scatter.png</sourceUrl>
+    <resource><id>3160160380</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/1/9/e2cf38f779bce23adaed931c8acfc25762b67.png</url></resource></object>
+    <object id="8_128620672" type="button" x="11270.59415308043" y="-8042.390406208209" r="0" s="6.456332497801185" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>800</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="9_128620672" type="text" x="11298.823384487963" y="-9479.361203924405" r="0" s="12.385997876765504" class="strong">
+      <height>30</height>
+      <width>-135.67200000000003</width>
+      <p>
+        <text><![CDATA[Model Building]]></text>
+      </p>
+    </object>
+    <object id="10_128620672" type="text" x="11343.22561305606" y="-8922.86334850136" r="0" s="8.84714134054679" class="body">
+      <height>57.6</height>
+      <width>464.00509222134303</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Selected features: Existing Passenger, Fleet, Gross Amount ]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Train, test, split and use Cross Val (10) to find Optimal K ]]></text>
+      </p>
+    </object>
+    <object id="11_128620672" type="image" x="11495.178272741912" y="-7363.7126344521375" r="0" s="9.217276708188608">
+      <source w="379" h="256">3160182070<url>3160182070.png</url></source>
+      <sourceUrl>Optimal%20K.png</sourceUrl>
+    <resource><id>3160182070</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/5/9/79ef8f7ea17ff50acffb4815d9038357989a9.png</url></resource></object>
+    <object id="12_128620672" type="image" x="10635.2159055406" y="-7928.223748979312" r="-179.86286073977072" s="4.865037724788166">
+      <source w="191" h="190" bt="-96.25" bl="-97.1">606658735<url>606658735.swf</url></source>
+      <sourceUrl>bub%20sq.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606658735</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/6/8/98cd16641c66027c1b9f8a62374abf8ccafd1.swf</url></resource></object>
+    <object id="13_128620672" type="text" x="10652.344579806108" y="-7834.7879335653215" r="0" s="8.84714134054679" class="body">
+      <height>28.8</height>
+      <width>-91.36800000000001</width>
+      <p>
+        <text color="8028290"><![CDATA[K = 9 (77%)]]></text>
+      </p>
+    </object>
+    <object id="14_128620672" type="button" x="14856.000596330769" y="-2250.9136366333564" r="0" s="6.456332497801185" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>800</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="15_128620672" type="text" x="14981.459911070908" y="-3687.8844343495525" r="0" s="12.385997876765504" class="strong">
+      <height>30</height>
+      <width>-151.368</width>
+      <p>
+        <text><![CDATA[Model Evaluation]]></text>
+      </p>
+    </object>
+    <object id="16_128620672" type="text" x="14928.632056306395" y="-3131.3865789265064" r="0" s="8.84714134054679" class="body">
+      <height>57.6</height>
+      <width>464.00509222134303</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Metrics Accuracy Score = 75% ]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Plot Predicted Discounts over actual Discounts]]></text>
+      </p>
+    </object>
+    <object id="20_128620672" type="image" x="14918.266635398943" y="-1621.4899925935508" r="0" s="8.701149660064555">
+      <source w="396" h="272">3160206493<url>3160206493.png</url></source>
+      <sourceUrl>Discounts_AppliedxPredicted_Discounts.png</sourceUrl>
+    <resource><id>3160206493</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/9/0/271d42efd01a9377481d41f9cfcd2bcd7daab.png</url></resource></object>
+    <object id="21_128620672" type="button" x="13122.47705805618" y="3814.107325825417" r="0" s="6.456332497801185" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>800</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="22_128620672" type="text" x="13630.663707188378" y="2377.1365281092203" r="0" s="12.385997876765504" class="strong">
+      <height>30</height>
+      <width>-213.168</width>
+      <p>
+        <text><![CDATA[Findings and Next Steps]]></text>
+      </p>
+    </object>
+    <object id="23_128620672" type="text" x="13217.236118692397" y="3952.825065963256" r="0" s="8.84714134054679" class="body">
+      <height>288</height>
+      <width>464.00509222134303</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[75% metrics accuracy score good, but could be better]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Second experiment added February Trips and receives 79% metrics accuracy score]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[More robust the data set, the better the model works (potentially)]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Employed LinearSVC for best feature selection and Existing Passenger seems to be the best feature for prediction]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Future model could be built using Naive Bayes to predict different classes of discounts based on features selected in this experiment ]]></text>
+      </p>
+    </object>
+  </zui-table>
+  <background>
+    <layer depth="21.77142769029844" fadescale="0.8054854591032337">
+      <object id="background932974213" type="image" x="-810.4275953276348" y="2565.85476919014" r="0" s="39.27098981068646">
+        <source w="2000" h="2000">932974213<url>932974213.png</url></source>
+        <sourceUrl>gauge2dark%20(1).png</sourceUrl>
+      <resource><id>932974213</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/a/c/e9dc14b170a8e484eb9ccef656c4b2234ed01.png</url></resource></object>
+    </layer>
+  </background>
+  <path>
+    <s>
+      <eagle o="1_24309637"/>
+    </s>
+    <s>
+      <eagle o="2_24309637"/>
+    </s>
+    <s>
+      <eagle o="0_24309637"/>
+    </s>
+    <s>
+      <eagle o="3_24309637"/>
+    </s>
+    <s>
+      <eagle o="9_24309637"/>
+    </s>
+    <s>
+      <eagle o="14_24309637"/>
+    </s>
+    <s>
+      <eagle o="8_128620672"/>
+    </s>
+    <s>
+      <eagle o="14_128620672"/>
+    </s>
+    <s>
+      <eagle o="21_128620672"/>
+    </s>
+    <s>
+      <eagle o="1_24309637"/>
+    </s>
+  </path>
+  <style type="text/css"><![CDATA[
+@font-face
+{
+	src: url('YanoneKaffeesatz.keg');
+	fontFamily: body;
+	font-class: body;
+	font-style: normal;
+	font-weight: normal;
+	font-family: YanoneKaffeesatz;
+}
+
+@font-face
+{
+	src: url('Fontin-I.keg');
+	fontFamily: fontin-i;
+	font-class: fontin-i;
+	font-style: italic;
+	font-weight: normal;
+	font-family: Fontin;
+}
+
+@font-face
+{
+	src: url('YanoneKaffeesatz.keg');
+	fontFamily: head;
+	font-class: head;
+	font-style: normal;
+	font-weight: normal;
+	font-family: YanoneKaffeesatz;
+}
+
+@font-face
+{
+	src: url('LobsterTwo.keg');
+	fontFamily: strong;
+	font-class: strong;
+	font-style: normal;
+	font-weight: normal;
+	font-family: LobsterTwo;
+}
+
+@font-face
+{
+	src: url('YanoneKaffeesatz-B.keg');
+	font-style: normal;
+	font-weight: bold;
+	font-family: YanoneKaffeesatz;
+}
+
+@font-face
+{
+	src: url('YanoneKaffeesatz-I.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: YanoneKaffeesatz;
+}
+
+@font-face
+{
+	src: url('Fontin.keg');
+	font-style: normal;
+	font-weight: normal;
+	font-family: Fontin;
+}
+
+@font-face
+{
+	src: url('Fontin-B.keg');
+	font-style: normal;
+	font-weight: bold;
+	font-family: Fontin;
+}
+
+@font-face
+{
+	src: url('Fontin-BI.keg');
+	font-style: italic;
+	font-weight: bold;
+	font-family: Fontin;
+}
+
+@font-face
+{
+	src: url('LobsterTwo-B.keg');
+	font-style: normal;
+	font-weight: bold;
+	font-family: LobsterTwo;
+}
+
+@font-face
+{
+	src: url('LobsterTwo-I.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: LobsterTwo;
+}
+
+@font-face
+{
+	src: url('LobsterTwo-BI.keg');
+	font-style: italic;
+	font-weight: bold;
+	font-family: LobsterTwo;
+}
+
+.line1
+{
+	color: #00547f;
+	gradEndColor: #00547f;
+	gradStartColor: #00547f;
+}
+
+.line2
+{
+	borderColor: #00ffc5;
+	color: #00ffc5;
+	gradEndColor: #00ffc5;
+	gradStartColor: #00ffc5;
+}
+
+.line3
+{
+	borderColor: #fd0;
+	color: #fd0;
+	gradEndColor: #fd0;
+	gradStartColor: #fd0;
+}
+
+.line4
+{
+	borderColor: #ff8e00;
+	color: #ff8e00;
+	gradEndColor: #ff8e00;
+	gradStartColor: #ff8e00;
+}
+
+.line5
+{
+	borderColor: #fff;
+	color: #fff;
+	gradEndColor: #fff;
+	gradStartColor: #fff;
+}
+
+.poly1
+{
+	borderColor: #00547f;
+	borderThickness: 9;
+	color: #28afc3;
+	gradEndColor: #28afc3;
+	gradStartColor: #28afc3;
+}
+
+.poly2
+{
+	borderColor: #00547f;
+	borderThickness: 0;
+	color: #28afc3;
+	gradEndColor: #00547f;
+	gradStartColor: #00547f;
+}
+
+.poly3
+{
+	borderColor: #fd0;
+	borderThickness: 9;
+	color: #28afc3;
+	gradEndColor: #28afc3;
+	gradStartColor: #28afc3;
+}
+
+.poly4
+{
+	borderColor: #fd0;
+	borderThickness: 0;
+	color: #28afc3;
+	gradEndColor: #fd0;
+	gradStartColor: #fd0;
+}
+
+.poly5
+{
+	borderColor: #fff;
+	borderThickness: 9;
+	color: #28afc3;
+	gradEndColor: #28afc3;
+	gradStartColor: #28afc3;
+}
+
+Background
+{
+	gradEnd: #28afc3;
+	gradStart: #28afc3;
+}
+
+Grid
+{
+	color: #1e8493;
+}
+
+ZArrow
+{
+	borderAlpha: 0;
+	borderColor: #f8981d;
+	borderThickness: 0;
+	color: #f8981d;
+	gradEndAlpha: 1;
+	gradEndColor: #f8981d;
+	gradStartAlpha: 1;
+	gradStartColor: #f8981d;
+	lockTintAlpha: 0;
+	lockTintColor: #f8981d;
+	radius: 0;
+	thickness: 7;
+}
+
+ZCircle
+{
+	borderAlpha: 1;
+	borderColor: #008080;
+	borderThickness: 0;
+	gradEndAlpha: 1;
+	gradEndColor: #008080;
+	gradStartAlpha: 1;
+	gradStartColor: #008080;
+	lockTintAlpha: 0;
+	lockTintColor: #ffffe6;
+	radius: 0;
+	thickness: 100;
+}
+
+ZCurveLine
+{
+	alpha: 1;
+	color: #1c0f3c;
+	thickness: 2;
+}
+
+ZFrame.bracket
+{
+	borderColor: #91edfb;
+	borderThickness: 1;
+	gradEndColor: #91edfb;
+	gradStartColor: #91edfb;
+	padding: 1.03;
+	thickness: 8;
+}
+
+ZFrame.circle
+{
+	borderColor: #fff;
+	borderThickness: 0;
+	gradEndColor: #fff;
+	gradStartColor: #fff;
+	padding: 1.03;
+	thickness: 8;
+}
+
+ZFrame.roundrect
+{
+	borderColor: #fff;
+	borderThickness: 2;
+	gradEndAlpha: 0.4;
+	gradEndColor: #00547f;
+	gradStartAlpha: 0.5;
+	gradStartColor: #00547f;
+	padding: 1.03;
+	radius: 3;
+}
+
+ZLabel
+{
+	lockTintAlpha: 0.15;
+	padding: 1.2;
+}
+
+ZLabel.body
+{
+	color: #fff;
+	fontFamily: body;
+}
+
+ZLabel.body-background
+{
+	background-alpha: 0.9;
+	background-color: #ffc400;
+	background-padding: 7;
+}
+
+ZLabel.head
+{
+	color: #fd0;
+	fontFamily: head;
+}
+
+ZLabel.head-background
+{
+	background-alpha: 0.9;
+	background-color: #000;
+	background-padding: 4;
+}
+
+ZLabel.strong
+{
+	color: #00ffc5;
+	fontFamily: strong;
+}
+
+ZLabel.strong-background
+{
+	background-alpha: 0.9;
+	background-color: #00547f;
+	background-padding: 4;
+}
+
+ZLine
+{
+	borderColor: #f8981d;
+	color: #f8981d;
+	gradEndColor: #f8981d;
+	gradStartColor: #f8981d;
+	lockTintAlpha: 0;
+}
+
+ZMarker
+{
+	alpha: 0.5;
+	color: #fd0;
+	thickness: 25;
+}
+
+ZPath
+{
+	alpha: 1;
+	color: #40abe6;
+	textColor: #fff;
+	thickness: 3;
+}
+
+ZPath Ball.base
+{
+	alpha: 1;
+	fillColor: #40abe6;
+	radius: 12;
+}
+
+ZPath Ball.mid
+{
+	alpha: .5;
+	fillColor: #40abe6;
+	radius: 8;
+}
+
+ZPoly
+{
+	borderAlpha: 1;
+	borderColor: #f8981d;
+	borderThickness: 0;
+	color: #f8981d;
+	gradEndAlpha: 1;
+	gradEndColor: #f8981d;
+	gradStartAlpha: 1;
+	gradStartColor: #f8981d;
+	lockTintAlpha: 0;
+	radius: 0;
+	thickness: 100;
+}
+
+]]></style>
+  <hash>-2222016f</hash>
+<sync><oid>cbdncbvkmexu</oid><title>predicting-discounts-for-2pointb</title><hash>-2222016f</hash></sync><config>XJMHxMiVvPIoEhRe+mjM338phWAajqGs3a3//n0f5vW6vVxMGf4KY1E/NSZOkD0dYDAuhD4te65Kqll8Wz4aKFsqQVLZsUYkPS/QTXiDqw+J+qEkax7xjW1DldcfitF9flzZBvzDkbG41IrLtBbaEP91bmNqRJGTll+jTEvZx7e4B79RwtGxteyVi5c30lAqEVzmE4cirsEIRUMqsvQq4Yf/rj9mWlQrHJIeZEB40NBd2+tzi9eezu5OMMMqwqzF/LRhYrKviy1ZFg5yD6L/PuFnfbhukaXjHKLe33pytnYgClrcEgljN0KYZTi0RTdxE6IaIafOmqMVqsTdBZ4dgw==</config></zuiprezi>
